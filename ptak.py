@@ -7,7 +7,7 @@ class Ptak():
     #sni jidlo, coz snici hlad a zvysi vahu
     def snez(self, gramu):
         self.vaha += gramu
-        self.hlad += gramu
+        self.hlad -= gramu
         if self.hlad < 0:
             self.hlad = 0
 

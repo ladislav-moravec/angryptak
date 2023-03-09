@@ -1,16 +1,15 @@
-# This is a sample Python script.
+from ptak import Ptak
+from angry_ptak import AngryPtak
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+kos = Ptak()
+print(kos)
+kos.snez(20)
+print(kos)
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+red_bird = AngryPtak()
+print(red_bird)
+red_bird.provokuj(5)
+print(red_bird)
+red_bird.snez(100)
+red_bird.provokuj(5)
+print(red_bird)
