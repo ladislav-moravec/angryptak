@@ -1,7 +1,7 @@
 class Ptak():
     #Trida reprezentuje ptaka
     hlad = 100
-
+    #váha v gramech
     vaha = 50
 
     #sni jidlo, coz snici hlad a zvysi vahu
